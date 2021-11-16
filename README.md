@@ -29,6 +29,8 @@ might be snowball stemming, no stopwords, delete numbers, convert all letters to
 etc.)
 4. Data size: train on the first 1000 cases in the training set only, then train on all in the 
 training set.
+
+
 So this makes 3 by 2 by 2 by 2 different configurations. For each configuration test the algorithm 
 on the test set provided and report the following results in your notebook
 - F1, precision, recall
